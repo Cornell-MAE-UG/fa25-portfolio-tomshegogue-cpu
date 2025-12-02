@@ -13,7 +13,7 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : Thomas Shegogue
 description              : Thomas Shegogue - Projects and CV 
-baseurl                  : "" # Set this to your repo name 
+baseurl                  : "/fa25-portfolio-tomshegogue-cpu" 
 
 # Theme and Style
 theme: jekyll-theme-minimal
