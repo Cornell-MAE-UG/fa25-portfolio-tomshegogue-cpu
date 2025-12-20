@@ -8,8 +8,10 @@ layout: default
 
 {{ content }}
 
+{% if page.technologies and page.technologies.size > 0 %}
 <p><strong>Technologies Used</strong>: {{ page.technologies | join: ", " }}</p>
+{% endif %}
 
-<a href={{ "/projects/" | relative_url }} class="back-arrow">
+<a href="{{ '/projects/' | relative_url }}" class="back-arrow">
     <i class="bi bi-arrow-left-circle-fill"></i> Back to Projects
 </a>
